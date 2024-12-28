@@ -20,7 +20,6 @@ requirements:
     - pip
     - setuptools
   run:
-    # restrict to newer python to keep noarch: python
     - python >={{ python_min }}
     - isodate <1.0.0,>=0.6.1
     - azure-common >=1.1,<2.dev0
