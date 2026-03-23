@@ -1,5 +1,5 @@
 {% set name = "azure-synapse-artifacts" %}
-{% set version = "0.21.0" %}
+{% set version = "0.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d7e37516cf8569e03c604d921e3407d7140cf7523b67b67f757caf999e3c8ee7
+  sha256: ddc0fb622738c3eab7465ce428cfa0cd41ad01a870fbd45361e4d58d175c623c
 
 build:
   noarch: python
